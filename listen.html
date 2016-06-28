@@ -1,0 +1,79 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Listen</title>
+  <link href="stylesheet.css" rel="stylesheet" type "text/css"/>
+</head>
+
+<body>
+  <div class="box">
+    <h1>Listen</h1>
+    <p> In HTML gibt es 3 grundsätzlich verschiedene Listentypen: </p>
+
+<ul>
+  <li> ol - geordnete Listen </li>
+  <li> ul - geordnete Listen </li>
+  <li> dl - geordnete Listen </li>
+
+</div>
+
+  <div class="box">
+    <h2>geordnete Listen</h2>
+      <p> In einer geordneten Liste können beliebig viele Elemente (li) aufgelistet werden. <br>
+        Diese werden in der Regel mit einer fortlaufenden Nummerierung, <br>
+        z.B. durch Zahlen, Buchstaben oder Römischen Ziffern dargestellt.
+      </p>
+
+      <h3>Aufbau:</h3>
+      <code>
+        <span><</span>ol<span>><br>
+        <span margin-left=2px><</span>li<span>></span>...<span> <</span>li<span>/></span> <br>
+        <span><</span>li<span>></span>...<span> <</span>li<span>/></span> <br>
+        <span><</span>li<span>></span>...<span> <</span>li<span>/></span> <br>
+        <</span>ol<span>/></span>
+      </code>
+    </div>
+    <div class="box">
+    <h2>ungeordnete Listen</h2>
+    <p> Eine ungeornete Liste ist eine Aufzählungsliste, <br>
+      bei der die Reihenfolge der Elemente nur eine untergeordnete oder keine Rolle spielt. <br>
+      Die Listeneinträge werden von grafischen Browsern standardmäßig mit einem Aufzählungszeichen (Bullet) versehen. <br>
+      Aufzählungslisten eignen sich sehr gut, um Navigationsleisten in Webseiten zu strukturieren.
+    </p>
+
+    <h3>Aufbau:</h3>
+    <code>
+      <span><</span>ul<span>><br>
+      <span><</span>li<span>></span>...<span> <</span>li<span>/></span> <br>
+      <span><</span>li<span>></span>...<span> <</span>li<span>/></span> <br>
+      <span><</span>li<span>></span>...<span> <</span>li<span>/></span> <br>
+      <</span>ul<span>/></span>
+    </code>
+  </div>
+
+  <div>
+    <h2>Definitionslisten</h2>
+    <p> Definitionslisten, seit HTML5 Beschreibungslisten, <br>
+      werden mit dl-Elementen aufgebaut. dl steht dabei für definition- bzw. description list. <br>
+      Solche Listen sind beispielsweise für Glossare gedacht. <br>
+       <ul> <li><span></span>Eine Definitions- bzw. Beschreibungsliste wird mit <</span>dl<span>> eingeleitet und mit <</span>/dl<span>> beendet. <br>
+            <li><span></span>Der zu erläuternde Ausdruck steht zwischen <</span>dt<span>> ... <</span>/dt<span>> (description list term). <br>
+            <li><span></span><</span>dd<span>> ... <</span>/dd<span>> (description list data) umschließt die Erläuterung. <br>
+
+        Die Abfolge von dt- und dd-Elementen innerhalb einer dl-Liste ist nicht streng geregelt. <br>
+        Es dürfen auch mehrere dt- oder dd-Elemente hintereinander folgen.
+    </p>
+ </div>
+ <div>
+    <h3>Aufbau:</h3>
+    <code>
+      <span><</span>dl<span>><br>
+      <span><</span>dt<span>></span> Begriff<span> <</span>dt<span>/></span><br>
+      <span><</span>dd<span>></span> Erläuterung<span> <</span>dd<span>/></span><br>
+      <</span>dl<span>/></span>
+    </code>
+  </div>
+
+
+  </body>
+  </html>
